@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-
+@media (max-width: 768px) {
+    body {
+        background-image: url('grey\ and\ yellow\ colorful\ music\ phone\ wallpaper.jpg');
+    }
+}
 body {
     background-color: #111;
     color: white;
