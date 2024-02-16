@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #111;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    max-width: 600px;
+    margin: 50px auto 100px auto;
+}
+
+.icon1 {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 19px;
+    font-size: 24px;
+    border-radius: 4px;
+    z-index: 2000;
+}
+
+.img{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 29px;
+    border-radius: 100%;
+
+}
+
+.img img {
+    width: 100%;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+.ss {
+    font-size: 26px;
+    margin-bottom: 7px;
+}
+
+.aaa {
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #222;
+    padding: 19px 20px 19px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+
+.icon {
+    font-size: 20px;
+}
+
+
+
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #222;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1000;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+
+.show-menu {
+    display: flex;
+}
